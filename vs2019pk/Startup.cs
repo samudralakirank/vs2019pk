@@ -33,6 +33,7 @@ namespace vs2019pk
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync(" Hello welcome to site:");
                 });
             });
         }
